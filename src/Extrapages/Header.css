@@ -1,0 +1,63 @@
+.navbar-nav .nav-link{
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+  color: #18ad3d !important; 
+  
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blinking-image {
+    animation: blink 1s infinite;
+  }
+  .d-flex{
+    align-items: center;
+    justify-content: center;
+   margin: 0 200px;
+  }
+  @media (max-width: 767px) {
+    .d-flex {
+      margin: 0; /* Adjust the margin for mobile view */
+    }
+  }
+  /* Your existing styles */
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 16px; /* Adjust font size for mobile view */
+  }
+
+  .navbar-toggler {
+    font-size: 16px; /* Adjust font size for mobile view */
+  }
+
+  .navbar-nav {
+    margin-top: 10px; /* Add some spacing between nav items in mobile view */
+  }
+  .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #18ad3d !important; 
+    
+  }
+
+  .blinking-image {
+    width: 30px; /* Adjust image size for mobile view */
+    height: 30px;
+  }
+}

@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 90%;
+    flex-wrap: wrap;
+}
+.img-holder{
+    width: 300px;
+    object-position: center;
+}
+.img-holder img{
+    cursor: pointer;
+    object-position: center;
+    object-fit: cover;
+    height: 150px;
+    width: 300px;
+    border: 6px solid white;
+    transition: all 1s ;
+}
+.close-icon{
+    width: 25px;
+    float: right;
+}
